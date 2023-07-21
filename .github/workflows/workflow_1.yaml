@@ -2,7 +2,7 @@ name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs:
-  learn the environment:
+  learn-the-environment:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -12,7 +12,7 @@ jobs:
       - run: ls -al
       - run: pwd
       - run: uname -a
-  run a shell script:
+  run-a-shell-script:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@latest
