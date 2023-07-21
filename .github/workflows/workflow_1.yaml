@@ -28,9 +28,9 @@ jobs:
   cache-munny:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install awscli boto3 flask django numpy tox
+      - run: pip install awscli boto3 flask django numpy
       - run: pip list
-      - run: tox -r 
+      - run: sleep 15
   uwu:
     runs-on: ubuntu-latest
     needs: cache-munny
