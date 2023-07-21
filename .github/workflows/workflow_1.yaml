@@ -27,7 +27,7 @@ jobs:
       - run: echo ${{ matrix.yeet }}
   uwu:
     runs-on: ubuntu-latest
-    needs: get-jiggy-wit-it
-    uses: actions/cache@v3
+    needs: run-a-shell-script
+    uses: actions/caches@v3
     steps:
       - run: pip list
