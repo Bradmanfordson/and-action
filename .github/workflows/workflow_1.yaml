@@ -27,6 +27,8 @@ jobs:
       - run: echo ${{ matrix.yeet }}
   cache-munny:
     runs-on: ubuntu-latest
+    env:
+      cache-name: pip_packages
     steps:
       - run: pip install awscli boto3 flask django numpy
       - run: pip list
