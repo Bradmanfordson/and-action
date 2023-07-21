@@ -17,4 +17,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: bash ./test.sh
+  get-jiggy-wit-it:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        yeet: ["yeet", "yank", "yoink"]
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo ${{ matrix.yeet }}
   
