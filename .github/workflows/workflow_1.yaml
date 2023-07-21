@@ -28,5 +28,6 @@ jobs:
   uwu:
     runs-on: ubuntu-latest
     needs: get-jiggy-wit-it
+    uses: actions/cache@v3
     steps:
       - run: pip list

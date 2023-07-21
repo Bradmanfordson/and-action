@@ -1,5 +1,5 @@
-name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+name: cache_munny
+run-name: ${{ github.actor }} is makin it rain
 on: [push]
 jobs:
   cache-munny:
