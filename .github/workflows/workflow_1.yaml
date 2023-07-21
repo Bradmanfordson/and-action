@@ -28,7 +28,7 @@ jobs:
   cache-munny:
     runs-on: ubuntu-latest
     steps:
-      - run: pip install awscli boto3 crytography flask django numpy
+      - run: pip install awscli boto3 flask django numpy
       - run: pip list
   uwu:
     runs-on: ubuntu-latest
