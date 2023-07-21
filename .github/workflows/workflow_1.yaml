@@ -33,7 +33,7 @@ jobs:
         with:
           python-version: '3.10'
           cache: 'pip'
-      - run: pip install awscli boto3 flask django numpy
+      - run: pip install -r requirements.txt
   uwu:
     runs-on: ubuntu-latest
     needs: cache-munny
