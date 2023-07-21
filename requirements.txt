@@ -1,0 +1,5 @@
+tox
+flask
+django
+awscli
+boto3
